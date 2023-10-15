@@ -54,6 +54,8 @@ h1 {
 #rosteri,
 #rosteri2 li {
       list-style-type: none;
+      margin-left: 500px;
+      margin-right: 500px;
 
 }
 
