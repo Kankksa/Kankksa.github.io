@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+    <title>Turnaustulokset</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Sami">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <img src="kuvat/tiikerilogo.png" class="logous" alt="logo">
+            Victory point Tigers
+        </h1>
+        <nav id="valikko">
+            <ul>
+                <li><a href="index.html">kotisivu</a></li>
+                <li><a href="hypevidit.html">Hypevidit</a></li>
+                <li><a href="turnaukset.html">Turnaustulokset</a></li>
+                <li><a href="contact.html">ota yhteyttä</a></li>
+            </ul>
+        </nav>
+        <nav id="lomake_valikko">
+            <select name="URL" onChange="window.location.href=this.value">
+                <option value="" selected>Navigoi</option>
+                <option value="index.html">Kotisivu</option>
+                <option value=" hypevidit.html">Hypevidit</option>
+                <option value="turnaukset.html">Turnaustulokset</option>
+                <option value="contact.html">ota yhteyttä</option>
+            </select>
+        </nav>
+    </header>
+
+    <main>
+        <div class="middle">
+            <h2>Turnaustulokset</h2>
+
+            <p>Victory point Tigers joukkueen turnaustuloksia.</p>
+        </div>
+        <div class="flex_container">
+            <div class="flex_item">
+                <h3>Clash Worlds Cup Day 1</h3>
+                <p>10.10.2020</p>
+                <img src="kuvat/worldscup1.png" alt="Worlds_Cup1" class="frontkuva">
+                <img src="kuvat/worldscup11.png" alt="worlds1_back" class="backkuva">
+            </div>
+            <div class="flex_item">
+                <h3>Clash Worlds Cup Day 2</h3>
+                <p>11.10.2020</p>
+                <img src="kuvat/worldscup2.png" alt="Worlds_Cup2" class="frontkuva">
+                <img src="kuvat/worldscup21.png" alt="worlds2_back" class="backkuva">
+            </div>
+            <div class="flex_item">
+                <h3>Clash Worlds Cup Day 3</h3>
+                <p>17.10.2020</p>
+                <img src="kuvat/worldscup3.png" alt="Worlds_Cup3" class="frontkuva">
+                <img src="kuvat/worldscup31.png" alt="worlds3_back" class="backkuva">
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>Victory Point <br> Asemakatu 11 A 3.Krs <br>40100<br> Suljettu 31.12.2020</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+/* kaikille yhteiset */
+
+body {
+      color: rgb(231, 126, 6);
+      background-color: black;
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+}
+
+main {
+      margin: 15px;
+}
+
+.hypes {
+      text-align: center;
+}
+
+h1 {
+      color: black;
+      background-color: rgb(232, 152, 4);
+      margin: 0px;
+      border-bottom: 5px;
+      text-align: center;
+
+
+}
+
+.frontkuva {
+      width: 90%;
+}
+
+.backkuva {
+      height: 400px;
+      width: 620px;
+}
+
+.portrait {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+}
+
+.logous {
+      height: auto;
+      width: 150px;
+      display: block;
+      margin: auto;
+}
+
+#rosteri,
+#rosteri2 li {
+      list-style-type: none;
+
+}
+
+.areena {
+      border-radius: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+}
+
+#yhteystiedot1,
+#yhteystiedot2,
+#yhteystiedot3 {
+      list-style-type: none;
+
+}
+
+#yhteystiedot1 a {
+      color: purple;
+}
+
+#yhteystiedot1 a:hover {
+      color: green
+}
+
+#yhteystiedot2 a {
+      color: red;
+}
+
+#yhteystiedot2 a:hover {
+      color: green;
+}
+
+#yhteystiedot3 a {
+      color: white;
+}
+
+#yhteystiedot3 a:hover {
+      color: green
+}
+
+#logous {
+      vertical-align: middle;
+
+
+}
+
+.logokuva h2 {
+      background-image: url(kuvat/kuppi_pieni.png);
+      background-position: center;
+      height: 50px;
+      display: block;
+
+
+
+}
+
+.board {
+      border-radius: 20px;
+}
+
+.round {
+      border-radius: 50%;
+
+}
+
+/*
+img {
+      border-radius: 50%;
+}
+*/
+a {
+      text-decoration: none;
+      font-weight: bold;
+      color: orange;
+
+}
+
+
+
+a:hover {
+      color: white
+}
+
+header,
+footer {
+      text-align: center;
+      margin: 0px;
+
+}
+
+.hypevidit {
+      display: flex;
+
+
+}
+
+.hypevidi {
+      flex: 1;
+      padding: 5px;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+/*
+.flex_item p {
+      background-color: yellow;
+      padding: 10px;
+      border: red 5px solid;
+      margin-left: 10%;
+      border-radius: 20px;
+} */
+
+/* moobiili */
+@media only screen and (max-width:430px) {
+      .flex_container {
+            text-align: center;
+      }
+
+      #valikko li {
+            display: block;
+            text-align: left;
+      }
+
+      .hypevidit {
+            display: inline-block;
+      }
+
+      .hypevidi {
+            margin: 5px;
+            text-align: center;
+      }
+
+      #valikko li {
+            display: none;
+      }
+
+      .round {
+            width: 300px;
+      }
+
+      .board {
+            width: 300px;
+      }
+
+      .middle {
+            text-align: center;
+      }
+
+      .areena {
+            display: block;
+            margin-left: 5px;
+            margin-right: 5px;
+
+
+      }
+
+      .backkuva {
+            height: 200px;
+            width: 350px;
+      }
+}
+
+@media only screen and (min-width:431px) {
+      .flex_container {
+            display: flex;
+            text-align: center;
+      }
+
+      .middle {
+            text-align: center;
+      }
+
+      .flex_item {
+            display: inline-block;
+            flex: 1;
+            padding: 0px;
+      }
+
+      #valikko li {
+            display: inline-block;
+      }
+
+      #lomake_valikko {
+            display: none
+      }
+
+      .board {
+            width: 200px;
+
+      }
+
+      .portrait {
+            height: 50px;
+            width: 50px;
+      }
+
+      .backkuva {
+            height: 50%;
+            width: 75%;
+      }
+
+}
+
+@media only screen and (min-width:1024px) {
+      #valikko li {
+            display: inline-block;
+      }
+
+      #lomake_valikko {
+            display: none
+      }
+
+
+
+      .flex_item {
+            text-align: center;
+            padding: 5px;
+      }
+
+      .portrait {
+            height: 75px;
+            width: 75px;
+      }
+
+      .middle {
+            text-align: center;
+      }
+
+      .board {
+            height: auto;
+            width: auto;
+      }
+
+      .backkuva {
+            height: 400px;
+            width: 600px;
+      }
+
+}
